@@ -10,6 +10,69 @@ os = "macos"
     sha256 = "a8617a0566942e4b91964d998d63c15121e17de6e535ef661b4629a0e7556810"
     url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-apple-darwin-cxx11-mpi+mpich.tar.gz"
 [[ASAGI]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "fa5ff2e601b19bc9516ac68ebc724a2693ed0a75"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[ASAGI.download]]
+    sha256 = "a53b8acaf9f03643d8bc8b4d8c882206c2d0a5596f2e3b8fb7ebddc12bade258"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-apple-darwin-cxx11-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+git-tree-sha1 = "28eb41044ab884b481486f39ede5bac2fc93f5c9"
+lazy = true
+mpi = "mpiabi"
+os = "macos"
+
+    [[ASAGI.download]]
+    sha256 = "dd927ddf29c3dd12e8a6af7a770e9c8a028469297935e40beb4ca66a7d189e92"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-apple-darwin-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+git-tree-sha1 = "71f342897f0ef6a22c07c0a19eb342db1e244567"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[ASAGI.download]]
+    sha256 = "a8617a0566942e4b91964d998d63c15121e17de6e535ef661b4629a0e7556810"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-apple-darwin-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+git-tree-sha1 = "de16d4d44f9cc3860433227614344229640f8425"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[ASAGI.download]]
+    sha256 = "66289509164ef135e82936faa969b11180939f82505a7c1cc5f91ccc863ccf5c"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+git-tree-sha1 = "0d7ffeb563cccf51bba5750d17b2500730074470"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[ASAGI.download]]
+    sha256 = "b0c788de7750681874e86b53cf3ab35b5af1339f7b078397fda0151c6c208225"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-apple-darwin-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a0fe1cca740f620123c14497703c4bf96765f625"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "5938cfe02333cbcb0f34f50565fb2929ecb6ebd6073445c24379a1ebbe7ca939"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-linux-gnu-cxx11-mpi+mpiabi.tar.gz"
+[[ASAGI]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "87f614079f56c756a991c72a7201a90e7516ecbd"
@@ -22,8 +85,477 @@ os = "linux"
     sha256 = "8515edaa60e3d9b1266035468c7acd9c8a5525b162a6753c0ea4df56570d1a3b"
     url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[ASAGI]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx11"
+git-tree-sha1 = "270c0634b0a44bdb8d023a376b2ba17a7e0a6036"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "430c67e7465e3e89e685bfe95778b55530dd537d087e374fb494a81af01b3274"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "42e85c4b0eb548627fb573ed775db4890d3aaa21"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "61a826a3b72347e53a752ececacc7460982a6170eaa8b2357ba5b042c618b40c"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4b126c5cec469dcd08d5a6a51d1c1ad68d87a43f"
+lazy = true
+libc = "musl"
+mpi = "mpiabi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "fb163fbd16dac856f5aeb70369b5b39b1329a7ed33cc4e11cc8e26a15613ad0c"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-linux-musl-cxx11-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bfd98779929d16a25c215804fc79eef343637cca"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "97b590637bbf16208b699f1b2bf5cbd5c5f0eac6473066afc67a2988d6a345ae"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-linux-musl-cxx11-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "53762f5aeceb1712b2f225396802939b8cc127b8"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "12189c9b76a8d7bc79e41b77b5b37d1e16ce1135fb99f8504cfdd9b5744d8246"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-linux-musl-cxx11-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+git-tree-sha1 = "cf851188b6597ea628670ebf28e5ad30976e6b1e"
+lazy = true
+mpi = "mpiabi"
+os = "freebsd"
+
+    [[ASAGI.download]]
+    sha256 = "0f0c73e984e93e6c86b12e594314a6a1335aad653177b227ba266bd90895d5c9"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-unknown-freebsd-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+git-tree-sha1 = "73109c7a00897e5472db8b972a8b18e81839b459"
+lazy = true
+mpi = "mpich"
+os = "freebsd"
+
+    [[ASAGI.download]]
+    sha256 = "bf3f28ef8fdccb67df3f6d2026f9e27fbdbaf0a59dc544bf24c6891051ddc0f5"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-unknown-freebsd-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+git-tree-sha1 = "a11aeb3666dcf5233b6703ff0d8388fbbdd61320"
+lazy = true
+mpi = "mpitrampoline"
+os = "freebsd"
+
+    [[ASAGI.download]]
+    sha256 = "126f1e58e4c263f51959b04ca51d0e6d4e1caea3e3958f9ad0eac8c178dd3acf"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-unknown-freebsd-mpi+mpitrampoline.tar.gz"
+[[ASAGI]]
+arch = "aarch64"
+git-tree-sha1 = "01ddca17e2b3d0843411a0979cdd47dd33e4bc2c"
+lazy = true
+mpi = "openmpi"
+os = "freebsd"
+
+    [[ASAGI.download]]
+    sha256 = "1f41ac5a29f5bad3a97209751e541f35d42ac7fb99074cd71b05656e2895e114"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-unknown-freebsd-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "94d709f0ebcb8a8a4cd755d28a5f5dee0f3c25de"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "93a71c55ecbc7f466cd59e48b18bd546857f8ba95e8a5d4f5f3281c9243277d5"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv6l-linux-gnueabihf-cxx11-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "59e26606151926c29d3d47d773a0b7f902af2b67"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "3b72a9da93611766c91459febdb741b41e57bdaaa3645631822d8bf281a1a1c1"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv6l-linux-gnueabihf-cxx11-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ce4a4290f428c9313d3b0d5ed4f61ef7455c0657"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "5f7d8ac6530ee554cdbd280b7a5fa20c11dcd16dd78e2c71ac04f9c78cc93831"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv6l-linux-gnueabihf-cxx11-mpi+mpitrampoline.tar.gz"
+[[ASAGI]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bb5593b2e90313d5d63429ed0085aaeeed8fdb03"
+lazy = true
+libc = "musl"
+mpi = "mpiabi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "ca367e38573203b655167b510140a8a501076b8377c1a05e41b0c93df19ab21b"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv6l-linux-musleabihf-cxx11-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "fa9b2153b47283dd7ac9d95fe559af6d9cf5bcb9"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "94c3a745cd3cf7ae68df735c1468e982c7af6794cc4467ef354fd0d5949d2cab"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv6l-linux-musleabihf-cxx11-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7b204aac5f3878eb6af30b09a9e91abd5efa1bde"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "1ad512ab395c46b48767bbb1143813f724920e8e791c0cb0a4a3e2a8a29f0f71"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv6l-linux-musleabihf-cxx11-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5a4002342f26d9cac96f678b01d9a4f504fddb6d"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "e47082fad8880bff01e1958730c41b7f6c1968055249f3044bcb6edb1870e43c"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv7l-linux-gnueabihf-cxx11-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e8edaa2b520b4b8a35e68c7dff673675f44556e7"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "c29c1072dc40b9a235bc154e0fe66e0faf4278cd746beeae932d072eaa77ad00"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv7l-linux-gnueabihf-cxx11-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "26bad254aafc3fdaab2b13bb469770f08d79ee32"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "bc668d78c10c12959ef873cb7bdd18ff8fb7e0f763038b74ab477f49603c8d5c"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv7l-linux-gnueabihf-cxx11-mpi+mpitrampoline.tar.gz"
+[[ASAGI]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "06fcf768876685b3e4231fd8983bae2dde832c52"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "2016e0a0bff7610dc5d46b26e2e42f47a6b995dbe00b5a240899dbf9b935e86a"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv7l-linux-gnueabihf-cxx11-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "89bf5277af9e6f45496778731d9c93f8b0dff848"
+lazy = true
+libc = "musl"
+mpi = "mpiabi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "6bbe313f6f6d319759531e0f6329743ce11d84c3612bff4e7d9e9e40e26b5950"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv7l-linux-musleabihf-cxx11-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b0533b532c0f3d4d68898c2b3e3242edff54313e"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "c2bbad72ad61a08504a8faf04aae6f5cf414b56205847e678acd57d934444059"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv7l-linux-musleabihf-cxx11-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5d7019dda4c8c7f0bd716cebc56cabe625fc1272"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "986571f3fdc8c19e4f0281dc313503276deec77735e96574678bea45c45c53ce"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.armv7l-linux-musleabihf-cxx11-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bb3e6f23937fcfc148265209bcc8427c1246b1a2"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "fcbf2661361f1805de77c31b3ac0dff24efab83d8b1ad6bcb219014fcb179c1a"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.i686-linux-gnu-cxx11-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b161bce678b034da3f5c495068111cad94c8e283"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "a714e7fb0b7b1a89f55c44c068ef0648641902e8ac2efe6dd53d587119089e49"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.i686-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f58ba846809cff29ee458a27643af478bae2d0d1"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "38dd0947c7821ed1c3ac8371bff22198c05036a268b8795739ff462f962707be"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.i686-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[ASAGI]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "602db2b6f663207d9dbc033fff31ac057ca3ab2b"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "f2937f5e6fc539ea796217c66d2826b4b72efe285b7be69c57e74bfed2e1062c"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.i686-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "da9a60ed744cc2a57e506dfbc06a5a6b8dd56551"
+lazy = true
+libc = "musl"
+mpi = "mpiabi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "bedf7fbb4b138f04b03ccb7b7b1fe31139f05b358d9abe04122e6200e9694683"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.i686-linux-musl-cxx11-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ad253fadf4e2003ab2bfc9111d08a9438ab2d10a"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "3593d8e747c5e9002cfeece63b207c301ee04f3a14fdd731520e5a2ecee524fd"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.i686-linux-musl-cxx11-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "feeee276452124a35aee093f9a714ee9b2360c21"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "1f1618f5f97e2518b1807e771dd694a8b967b031666bc8890ba4a15beaf62093"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.i686-linux-musl-cxx11-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3111972c44fa4262c708230e9ffcee2ed596aa7a"
+lazy = true
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[ASAGI.download]]
+    sha256 = "e8675b60dd17d4379708e98effdcbee5ca864579be7b2f6ce7892f72ea92ee5d"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.i686-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"
+[[ASAGI]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "99b8997862c46f111f7e97d50baa761ebcf06376"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "06bb7359df9417070a9233a77b16636754266f1a3355611cd03758f8ea0c5bdd"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.powerpc64le-linux-gnu-cxx11-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "408d99d211a3677f43ecd6569c4216bb5e476020"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "7059de43ce86039588d136026228d9ffdb6a59eea516d0e150fb3d8e63bb45be"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.powerpc64le-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4da8dd47ab98985280980b4a8e55c208348a4055"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "1baf8956dfeea76f32fe73f57dc2f81097f88b523d1cfca5939cda7abbff359d"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.powerpc64le-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[ASAGI]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3214b5b452beeb0fd67eab7f94e8436cdb1e46fe"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "7d5a1c783733c951afae24dbff88ad16b5d1ac3fca7d4a1810c08928caa9d44d"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.powerpc64le-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "89e54b28f3c77f0d47e57608c01d84ac6bfbc5a8"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "04b427e89599e10bfe23be0b715d4b68bf1b95de2affeda279acf30d6c36c5a8"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.riscv64-linux-gnu-cxx11-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "789cc1a62f84acdae2fb4ef7cfe44ef9e31e97fa"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "8c181d74c1c3c2ed228b7f1b892c4ff7b8c9d9e822b66965c293bf8f624e50e4"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.riscv64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "044ef5ad712cdea49cc7d6873e22b57bf94b76c8"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "9b883dc1a47ca5fdec569ee8e0f40d76dd1c1631dd67406f75fa920373b4cf9d"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.riscv64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[ASAGI]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "df8d3e88b5c7ef5e633a36ee1c211dfac535c38f"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "feecad5a9fbf7c087c3a50fd16243bfc6b9f95dbdd748c0d2aa9d65309c733f1"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.riscv64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+git-tree-sha1 = "4bc217078dbd42276f16e03f82ed89f1fc64b34e"
+lazy = true
+mpi = "mpiabi"
+os = "macos"
+
+    [[ASAGI.download]]
+    sha256 = "89199301dc5a00f411e596e04f22519666dc1ee40a514bf1a6393230eeace3e7"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-apple-darwin-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
 git-tree-sha1 = "fa5ff2e601b19bc9516ac68ebc724a2693ed0a75"
 lazy = true
 mpi = "mpich"
@@ -31,7 +563,39 @@ os = "macos"
 
     [[ASAGI.download]]
     sha256 = "a53b8acaf9f03643d8bc8b4d8c882206c2d0a5596f2e3b8fb7ebddc12bade258"
-    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-apple-darwin-cxx11-mpi+mpich.tar.gz"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-apple-darwin-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+git-tree-sha1 = "87977b5195d0e0abc9d9bae8c52d665414545ddd"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[ASAGI.download]]
+    sha256 = "8fee68b600949224dbe7f97446c0e261631e3be34a215c05415050afab52a4a8"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+git-tree-sha1 = "bf54f3e10ec2fa1d52bab0d13214b47e5740c584"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[ASAGI.download]]
+    sha256 = "4fea74585c2257cca75eebc4d6a56062f2a2f1752712d29db66c9347aa95b4bf"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-apple-darwin-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9e631c5a714052920c4a4265f723b7e84f71f07b"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "a94c100486183976407837f7ad75ba3d038d2dc3ec81aaa2b49ca2e8d67f0383"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-linux-gnu-cxx11-mpi+mpiabi.tar.gz"
 [[ASAGI]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -44,3 +608,114 @@ os = "linux"
     [[ASAGI.download]]
     sha256 = "ac7e5d008339881b362f0f010a189a943a8bb206e2bc46b8c0cecfe54fa7124c"
     url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3cfb562dc3af1ebe620836a6dd8fa4055e5c74a0"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "02fc4b496b36a10833ab443d3d8bab0afcfe79901a928aed1455cf107356159b"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3bf91c8947afd01724b303879758ca1a605df9e1"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "7598cb6a5d127fc7bb3956c4b84cd7c58348b78805ce23561e8311619d99098a"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2f24feab599c60145f648cc96c34e86ce38d384a"
+lazy = true
+libc = "musl"
+mpi = "mpiabi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "be7af3b5dfb6695ae1fd88e978a19b4b7cbfc43351d8a05e70e1a40fe9995bf0"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-linux-musl-cxx11-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3c533a8d1408e2212daccd909a2072f490e70705"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "3013c2a268cd20fb1e82fd6614cebfd97a730321e5d79d175b72d46b0fffcf98"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-linux-musl-cxx11-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "12a91d746722590693e1ec6ff445a8302a48b6bd"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[ASAGI.download]]
+    sha256 = "07796b12794891d553a6c57136284002a0cf5529945808fd23377fce11703850"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-linux-musl-cxx11-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+git-tree-sha1 = "9ecdba44be220a05e3cc2bc6634f8aa24adfec23"
+lazy = true
+mpi = "mpiabi"
+os = "freebsd"
+
+    [[ASAGI.download]]
+    sha256 = "2d6dc1b0f4bf3992f124e8b0d38ab1c045208349115c98445bd5d86f4159d97c"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-unknown-freebsd-mpi+mpiabi.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+git-tree-sha1 = "087dc04a76e13f2ea431d1f929a461f06d4a69ec"
+lazy = true
+mpi = "mpich"
+os = "freebsd"
+
+    [[ASAGI.download]]
+    sha256 = "9c6b2e2b41078f20b806ad16abb68d4f0bc05bb2a6ceb22a73be63da9ebeb911"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+git-tree-sha1 = "6dfa08e4ad4137f583dd247b08bc73dbbd75deaa"
+lazy = true
+mpi = "mpitrampoline"
+os = "freebsd"
+
+    [[ASAGI.download]]
+    sha256 = "cfb8f92dd89ad57b70a060126a7ea62c3de2ba0735278adb417ff2fa8824a7cf"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-unknown-freebsd-mpi+mpitrampoline.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+git-tree-sha1 = "9c58d1472debebf04a40d6343fbb07824410d2d3"
+lazy = true
+mpi = "openmpi"
+os = "freebsd"
+
+    [[ASAGI.download]]
+    sha256 = "782d3091d582d9074eb8d688caf2fe43078274fd14d6f5272ad94c4dff1fb6b4"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-unknown-freebsd-mpi+openmpi.tar.gz"
+[[ASAGI]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "51a28418e6f3b8f7ca992f627b6cb701d4abc65b"
+lazy = true
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[ASAGI.download]]
+    sha256 = "3c40ff85a3db3bc810a64ca10c8c7a52bd7783cf624d8fd0b9927f6e6cd1d200"
+    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"
