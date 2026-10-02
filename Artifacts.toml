@@ -1,27 +1,5 @@
 [[ASAGI]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "71f342897f0ef6a22c07c0a19eb342db1e244567"
-lazy = true
-mpi = "mpich"
-os = "macos"
-
-    [[ASAGI.download]]
-    sha256 = "a8617a0566942e4b91964d998d63c15121e17de6e535ef661b4629a0e7556810"
-    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.aarch64-apple-darwin-cxx11-mpi+mpich.tar.gz"
-[[ASAGI]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "fa5ff2e601b19bc9516ac68ebc724a2693ed0a75"
-lazy = true
-mpi = "mpich"
-os = "macos"
-
-    [[ASAGI.download]]
-    sha256 = "a53b8acaf9f03643d8bc8b4d8c882206c2d0a5596f2e3b8fb7ebddc12bade258"
-    url = "https://github.com/boriskaus/ASAGI_jll.jl/releases/download/ASAGI-v1.0.1+0/ASAGI.v1.0.1.x86_64-apple-darwin-cxx11-mpi+mpich.tar.gz"
-[[ASAGI]]
-arch = "aarch64"
 git-tree-sha1 = "28eb41044ab884b481486f39ede5bac2fc93f5c9"
 lazy = true
 mpi = "mpiabi"
